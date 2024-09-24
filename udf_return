@@ -1,0 +1,25 @@
+<?php
+
+function chk_num($x,$y)
+{
+    if($x>$y)
+    {
+        return 0;
+
+    }
+    else{
+        return 1;
+
+    }
+
+}
+
+$ans=chk_num(10,30);
+if($ans ==0)
+{
+    echo "bigger";
+}
+else{
+    echo "smaller";
+}
+?>
